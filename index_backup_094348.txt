@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="favicon.png" sizes="16x16" type="img/png">
+    <link rel="icon" href="tailwind.css">
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+    <div class="container mt-48 flex mx-auto items-center justify-center">
+        <div class="left w-1/5 mx-14">
+            <img class="w-64" src="logo1.png" alt="">
+            <p class="text-2xl mx-5">Connect and Share</p>
+        </div>
+        <div class="right flex flex-col bg-white p-8 rounded-lg w-1/4">
+            <input class="px-4 h-12 my-2 border border-1 border-gray-500 rounded-md outline-blue-500" type="text" placeholder="Email or phone number">
+            <input class="px-4 h-12 my-2 border border-1 border-gray-500 rounded-md outline-blue-500" type="password" placeholder="Password">
+            <button class="btn-1 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xl my-2 py-2 rounded-md cursor-pointer">Log In</button>
+            <span class="text-blue-700 text-center text-sm my-2 cursor-pointer hover:underline">Forgotten Password</span>
+            <hr class="my-2">
+            <button class="btn-2 cursor-pointer bg-green-600 hover:bg-green-700 text-white  text-xl my-2 py-2 px-4 mx-auto rounded-md w-fit">Create New Account</button> 
+        </div>
+    </div>
+</body>
+</html>
